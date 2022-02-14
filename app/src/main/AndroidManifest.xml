@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.isen.janowski.androiderestaurant">
+    package="fr.isen.tinco.androiderestaurant">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidERestaurant"
         android:usesCleartextTraffic="true">
-        <activity android:name=".User.UserActivity"></activity>
-        <activity android:name=".basket.BasketActivity" />
-        <activity android:name=".Detail.DetailActivity" />
-        <activity android:name=".CategoryActivity" />
-        <activity android:name=".HomeActivity"
+        <activity android:name="fr.isen.tinco.androiderestaurant.User.UserActivity"></activity>
+        <activity android:name="fr.isen.tinco.androiderestaurant.basket.BasketActivity" />
+        <activity android:name="fr.isen.tinco.androiderestaurant.Detail.DetailActivity" />
+        <activity android:name="fr.isen.tinco.androiderestaurant.CategoryActivity" />
+        <activity android:name="fr.isen.tinco.androiderestaurant.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="@color/transparent"
         android:text="@string/main"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,13 +20,13 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <Button
-        android:id="@+id/buttonStater"
+        android:id="@+id/buttonStarter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:background="@color/transparent"
-        android:text="@string/staters"
-        android:textColor="@color/purple_500"
+        android:text="@string/starters"
+        android:textColor="@color/purple_200"
         app:layout_constraintBottom_toTopOf="@+id/buttonMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -38,7 +38,7 @@
         android:layout_marginTop="32dp"
         android:background="@color/transparent"
         android:text="@string/finish"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/purple_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonMain" />
@@ -49,11 +49,11 @@
         android:layout_height="1dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@color/purple_700"
+        android:background="@color/purple_200"
         app:layout_constraintBottom_toTopOf="@+id/buttonMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonStater" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonStarter" />
 
     <View
         android:id="@+id/view2"
@@ -61,7 +61,7 @@
         android:layout_height="1dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@color/purple_700"
+        android:background="@color/purple_200"
         app:layout_constraintBottom_toTopOf="@+id/buttonFinish"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

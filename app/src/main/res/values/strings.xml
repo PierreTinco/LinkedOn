@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">AndroidERestaurant</string>
-    <string name="staters">Entrées</string>
+    <string name="app_name">La Tortue</string>
+    <string name="starters">Entrées</string>
     <string name="main">Plats</string>
-    <string name="finish">Désserts</string>
+    <string name="finish">Desserts</string>
     <string name="total">Total</string>
     <string name="itemAdded">Votre plat a été ajouté au panier</string>
     <string name="basket">Panier</string>
